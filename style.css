@@ -9,6 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   position: relative;
+  
   /* background: #333; */
 }
 svg {
@@ -27,6 +28,16 @@ svg {
               inset 0 0 40px 0 #2608089a;
   -webkit-filter: url(#wave);
           filter: url(#wave);
+  -webkit-animation: reverse-rotate 50s linear infinite;  
+          animation: reverse-rotate 50s linear infinite;        
+}
+@-webkit-keyframes reverse-rotate {
+from {
+  transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-720deg);
+  }
 }
 .hole {
   fill: #333;
@@ -42,5 +53,19 @@ svg {
               inset 0 0 25px 0 #3f3d3af5, 
               inset 0 0 40px 0 #333;
   -webkit-filter: url(#displacementFilter);
-          filter: url(#displacementFilter);
+          filter: url(#displacementFilter);  
+  -webkit-animation: rotate 50s linear infinite;  
+          animation: rotate 50s linear infinite;
 }
+
+@-webkit-keyframes rotate {
+from {
+  transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+
+
