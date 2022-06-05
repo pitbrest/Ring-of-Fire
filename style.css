@@ -19,12 +19,12 @@ svg {
   position: relative;
   height: 400px;
   width: 400px;
-  border: 10px solid #ff0000;
+  border: 10px solid #333;
   border-radius: 50%;
-  box-shadow: 0 0 30px 0 #ff000083,
-              0 0 50px 0 #ff00009a,
-              inset  0 0 30px 0 #ff000083,
-              inset 0 0 50px 0 #ff00009a;
+  box-shadow: 0 0 25px 0 #6b6b6b, 
+              0 0 40px 0 #6836179a, 
+              inset 0 0 25px 0 #3f3d3af5, 
+              inset 0 0 40px 0 #2608089a;
   -webkit-filter: url(#wave);
           filter: url(#wave);
 }
