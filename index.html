@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="./style.css">  
+	<title>Practice isometric menu</title>
+</head>
+<body>
+
+  <div class="ring"></div>
+
+  <svg>
+    <filter id="wave">
+       <feTurbulence x="-40px" y="-40px"      
+        baseFrequency="0.02" numOctaves="5" seed="2">
+        <animate attributename="baseFrequency" dur="15" values="0.01 ; 0.02 ; 0.01" repeatCount="indefinite" />        
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" scale="30" />
+    </filter>    
+  </svg>
+	
+</body>
+</html>
