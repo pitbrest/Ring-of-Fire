@@ -23,7 +23,7 @@ svg {
   border: 10px solid #333;
   border-radius: 50%;
   box-shadow: 0 0 25px 0 #6b6b6b, 
-              0 0 40px 0 #6836179a, 
+              0 0 60px 0 #6836179a, 
               inset 0 0 25px 0 #3f3d3af5, 
               inset 0 0 40px 0 #2608089a;
   -webkit-filter: url(#wave);
@@ -40,15 +40,15 @@ from {
   }
 }
 .hole {
-  fill: #333;
+  fill: #0e0e0ed4;
   position: absolute;
   color: #333;
   background-color: #333;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  box-shadow: 0 0 25px 0 #6b6b6b, 
-              0 0 40px 0 #6836179a;              
+  box-shadow: 0 0 40px 0 #6b6b6b, 
+              0 0 90px 0 #6836179a;           
   -webkit-filter: url(#displacementFilter);
           filter: url(#displacementFilter);  
   -webkit-animation: rotate 70s linear infinite;  
