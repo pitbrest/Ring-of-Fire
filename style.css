@@ -46,26 +46,30 @@ from {
   background-color: #333;
   width: 200px;
   height: 200px;
-    border-radius: 50%;
-
-    box-shadow: 0 0 25px 0 #6b6b6b, 
-              0 0 40px 0 #6836179a, 
-              inset 0 0 25px 0 #3f3d3af5, 
-              inset 0 0 40px 0 #333;
+  border-radius: 50%;
+  box-shadow: 0 0 25px 0 #6b6b6b, 
+              0 0 40px 0 #6836179a;              
   -webkit-filter: url(#displacementFilter);
           filter: url(#displacementFilter);  
-  -webkit-animation: rotate 50s linear infinite;  
-          animation: rotate 50s linear infinite;
+  -webkit-animation: rotate 70s linear infinite;  
+          animation: rotate 70s linear infinite;
 }
 
 @-webkit-keyframes rotate {
-from {
-  transform: rotate(0deg);
-  }
+  from {
+    transform: rotate(0deg);  
+    }
   to {
-    transform: rotate(720deg);
-  }
+    transform: rotate(360deg);  
+  }  
 }
+/* @-webkit-keyframes rotateY {
+  0% { transform: rotateY(0deg); }
+  25% { transform: rotateY(-40deg); }
+  50% { transform: rotateY(0deg);; }
+  75% { transform: rotateY(40deg); }
+  100% { transform: rotateY(0); }
+} */
 
 
 
